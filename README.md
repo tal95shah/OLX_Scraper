@@ -15,7 +15,7 @@ For proper usage first install selenium and parsel.Open Command Line and type co
 pip install pymongo
 </pre>
 <pre>
-Configure these Settings in <h5>settings.py</h5><hr>
+Configure these Settings in <strong>settings.py</strong><hr>
 ITEM_PIPELINES = {
      'olx_scraper.pipelines.MongoDBPipeline': 300,
 }
