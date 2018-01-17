@@ -7,7 +7,8 @@ An OLX Scraper using Scrapy + MongoDB. It Scrapes recent ads posted regarding re
 
 A Scrapy Program that scrapes recent ads about products and stores them in MONGODB Database.
 All the information regarding product to be searched is in <strong> args.py </strong>
-
+![Screenshot](https://github.com/tal95shah/OLX_Scraper/blob/master/olx_scraper/ARGS.PNG)
+<p>Change values after return command</p>
 ## Usage
 
 For proper usage first install selenium and parsel.Open Command Line and type commands given below
