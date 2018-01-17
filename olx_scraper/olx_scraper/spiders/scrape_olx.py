@@ -72,7 +72,7 @@ class ScraperSpider(scrapy.Spider):
             if  final_price < self.min_price and self.min_price != 0:
                  continue
             yield Request(abs_url,callback=self.product_page,meta={"url":abs_url,"title":title,
-                "priceOfProduct":price,"dateOfPost":date})    
+                "price":price,"date":date})    
     def product_page(self,response):
         user=response.xpath('//*[contains(@class,"userdetails")]/span/text()').extract_first()
         try:
@@ -90,8 +90,8 @@ class ScraperSpider(scrapy.Spider):
         price = response.meta.get('price')
         prc = response.meta.get('prc')
         
-        yield{'title':title,'phone_number':phone_number,'dateOfPost':date,
-        'priceOfProduct':price,'url':abs_url,'description':description,
+        yield{'title':title,'phone_number':phone_number,'date':date,
+        'price':price,'url':abs_url,'description':description,
         'user':user}
 
 
