@@ -2,7 +2,7 @@
 An OLX Scraper using Scrapy + MongoDB. It Scrapes recent ads posted regarding requested product and dumps to NOSQL MONGODB.
 ## Screenshot
 
-![Screenshot](https://github.com/tal95shah/LinkedIn_Scraper/blob/master/LinkedIn.PNG)
+![Screenshot](https://github.com/tal95shah/OLX_Scraper/blob/master/MONGODB.PNG)
 ## About
 
 A Scrapy Program that scrapes recent ads about products and stores them in MONGODB Database.
