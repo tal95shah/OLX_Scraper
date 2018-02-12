@@ -32,7 +32,7 @@ After all the above configurations have been successfully done.Then open command
 scrapy crawl scrape_olx
 </pre>
 ## Result
-Your result should be like Screenshot shown above.
+Open MongoDB GUI and check database, Your result should be like Screenshot shown above.
 ## Gotchas
 1-You must have python 3.6 pre-installed to use this software.<br>
 2-Make sure mongodb is running before you run spider. 
