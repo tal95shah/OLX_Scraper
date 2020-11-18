@@ -1,5 +1,8 @@
 # OLX_Scraper
 An OLX Scraper using Scrapy + MongoDB. It Scrapes recent ads posted regarding requested product and dumps to NOSQL MONGODB.
+
+## NOTE: This repository is not maintained anymore.
+
 ## Screenshot
 
 ![Screenshot](https://github.com/tal95shah/OLX_Scraper/blob/master/MONGODB.PNG)
