@@ -1,0 +1,7 @@
+scrapy
+date
+sleep
+glob
+csv
+settings
+signals
